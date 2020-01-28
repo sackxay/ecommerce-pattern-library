@@ -1,0 +1,77 @@
+.btn {
+  background-color: var(--color-neutral-beige);
+  border-color: var(--color-neutral-beige);
+  color: var(--color-primary);
+}
+
+.btn:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-neutral-beige);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--color-dark);
+}
+
+.btn-ghost:hover {
+  background-color: transparent;
+  border-color: var(--color-secondary-whatever);
+  color: var(--color-dark);
+
+}
+
+.btn-light {
+  background-color: var(--color-secondary-accent);
+  border-color: var(--color-secondary-accent);
+  color: var(--color-primary);
+}
+
+.btn-light:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: var(--color-light);
+}
+
+.btn-call-to-action {
+  background-color: var(--color-primary);
+  border-radius: 8px;
+  color: var(--color-light);
+}
+
+.btn-call-to-action:hover {
+  background-color: var(--color-primary-light)
+}
+
+.btn-round {
+  background-color: var(--color-secondary-whatever);
+  border: none;
+  color: var(--color-light);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.btn-round:hover {
+background-color: var(--color-secondary);
+color: var(--color-dark);
+}
+
+.btn-icon {
+  background-color: var(--color-neutral-beige);
+  border: none;
+  color: var(--color-dark);
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.btn-icon:hover {
+  background-color: var(--color-dark);
+}

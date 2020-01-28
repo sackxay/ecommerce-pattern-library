@@ -1,14 +1,89 @@
 :root {
   --color-primary: #560d0d;
+  --color-primary-light: #800000;
   --color-light: #ffffff;
   --color-secondary: #c6cf65;
   --color-secondary-accent: #f3ff93;
-  --color-neurtral-beige: #e2e2e2;
+  --color-neutral-beige: #e2e2e2;
   --color-secondary-whatever: #76a21e;
+  --color-dark: #000;
+  --color-link: #0000ff;
+  --color-mark: #ccff00;
   --font-primary: "brandon-grotesque", sans-serif;
   --font-secondary: "bodoni-urw", serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+h2 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+h3 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+h4 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+h5 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+h6 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+ul,ol,dl {
+  font-family: var(--font-secondary);
+   color: var(--color-secondary-whatever);
+ }
+
+blockquote {
+  font-family: var(--font-secondaryy);
+  color: var(--color-dark);
+}
+
+cite {
+  font-family: var(--font-secondary);
+  color: var(--color-dark);
+}
+
+em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 800;
+}
+
+b {
+  font-weight: 800;
+}
+
+q {
+  font-style:italic;
+}
+
+a {
+  color: var(--color-link);
+}
+
+mark {
+  background-color: var(--color-mark);
 }
