@@ -75,3 +75,9 @@ color: var(--color-dark);
 .btn-icon:hover {
   background-color: var(--color-dark);
 }
+
+.add {
+  left: 45px;
+  width: 46px;
+  background: url(icons.svg) 0 0;
+}
