@@ -17,6 +17,6 @@ patternbot:
     typefaces.secondary: |
       Bodoni-urw was chosen because it compliments the serif typeface and its width is comparable.
     colors.primary: |
-      The primary colour reprsents the earth. It should be used for all body copy and text against the white html background.
+      The primary colour represents the earth. It should be, along with #000000, used for all body copy and text against the white html background.
     colors.secondary: |
-      The primary colours represent nature, trees and plants. The should be used for text in foregrounds.
+      The primary colours represent nature, trees and plants. They should be used for text in foregrounds.

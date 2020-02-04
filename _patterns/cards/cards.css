@@ -1,0 +1,12 @@
+.card {
+  border-color: var(--color-secondary-whatever);
+  background-color: var(--color-neutral-beige);
+  max-height: 500px;
+  max-width: 250px;
+}
+
+.carosel {
+  background-color : var(--color-neutral-beige);
+  max-height: 500px;
+  max-width: 250px;
+}

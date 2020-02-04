@@ -1,23 +1,24 @@
 .btn {
-  background-color: var(--color-neutral-beige);
-  border-color: var(--color-neutral-beige);
-  color: var(--color-primary);
-}
-
-.btn:hover {
   background-color: var(--color-primary);
-  border-color: var(--color-primary);
+  border-color: var(--color-dark);
   color: var(--color-neutral-beige);
 }
 
+.btn:hover {
+  background-color: var(--color-neutral-beige);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
 .btn-ghost {
+  border-color: var(--color-secondary-whatever);
   background-color: transparent;
   color: var(--color-dark);
 }
 
 .btn-ghost:hover {
   background-color: transparent;
-  border-color: var(--color-secondary-whatever);
+  border-color: var(--color-secondary-accent);
   color: var(--color-dark);
 
 }
@@ -37,11 +38,13 @@
 .btn-call-to-action {
   background-color: var(--color-primary);
   border-radius: 8px;
+  border-color: var(--color-secondary);
   color: var(--color-light);
 }
 
 .btn-call-to-action:hover {
-  background-color: var(--color-primary-light)
+  border-color: var(--color-primary);
+  background-color: var(--color-light)
 }
 
 .btn-round {
@@ -62,22 +65,6 @@ background-color: var(--color-secondary);
 color: var(--color-dark);
 }
 
-.btn-icon {
-  background-color: var(--color-neutral-beige);
-  border: none;
-  color: var(--color-dark);
-  padding: 12px 16px;
-  font-size: 16px;
-  cursor: pointer;
-
-}
-
-.btn-icon:hover {
-  background-color: var(--color-dark);
-}
-
-.add {
-  left: 45px;
-  width: 46px;
-  background: url(icons.svg) 0 0;
+.cart {
+ border-color: var(--color-secondary-whatever);
 }
