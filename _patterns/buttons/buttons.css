@@ -24,8 +24,8 @@
 }
 
 .btn-light {
-  background-color: var(--color-secondary-accent);
-  border-color: var(--color-secondary-accent);
+  background-color: var(--color-light);
+  border-color: var(--color-primary-light);
   color: var(--color-primary);
 }
 
@@ -48,9 +48,9 @@
 }
 
 .btn-round {
-  background-color: var(--color-secondary-whatever);
+  background-color: var(--color-secondary);
   border: none;
-  color: var(--color-light);
+  color: var(--color-dark);
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -58,10 +58,11 @@
   font-size: 16px;
   margin: 4px 2px;
   border-radius: 50%;
+  box-shadow: 2px 2px;
 }
 
 .btn-round:hover {
-background-color: var(--color-secondary);
+background-color: var(--color-neutral-beige);
 color: var(--color-dark);
 }
 

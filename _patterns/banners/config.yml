@@ -1,0 +1,20 @@
+title: "Banners"
+description: |
+  Banners should be used on landing pages and when completing a flow before returning to the landing page.
+
+patterns:
+  featured:
+    title: "Featured"
+    description: |
+      Should be used to display products that are new or need to be sold from over stocking.
+
+  newsletter:
+    title: "Newsletter"
+    description: |
+      The newsletter should be used on the end of a task flow to remind people to sign up to the newsletter. There is also an option to join the newsletter in the footer, so only use it sparingly as to not be redundant.
+
+
+  call-to-action:
+    title: "Call-to-Action"
+    description: |
+      The Call-to-Action banner is specifically used for the landing page.

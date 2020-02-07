@@ -1,0 +1,24 @@
+title: "Cards"
+description: |
+  Cards should be used to display products and images. Cards should be used within a grid system.
+
+patterns:
+  kendama:
+    title: "Basic Light"
+    description: |
+      The basic card with a green border. Use against a light background.
+
+  product2:
+    title: "Basic Dark"
+    description: |
+      The basic card with a green border. Use against a dark background.
+
+  carosel:
+    title: "Carosel"
+    description: |
+      The carosel button should be used to scroll through images while remaining on the same page.
+
+  prodinfo:
+    title: "Product Info"
+    description: |
+      The product info card should be used to show the option to view different perspectives of the items. This should also be used as a child of the product card.

@@ -1,0 +1,12 @@
+.form {
+  border-color: var(--color-secondary-whatever);
+  background-color: var(--color-neutral-beige);
+}
+
+.form-name {
+
+}
+
+.radius {
+  border-radius: 8px;
+}

@@ -48,6 +48,11 @@ h6 {
   color: var(--color-primary);
 }
 
+p {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
 ul,ol,dl {
   font-family: var(--font-secondary);
    color: var(--color-secondary-whatever);
