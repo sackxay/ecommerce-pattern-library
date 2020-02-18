@@ -1,0 +1,16 @@
+.sections {
+  background-color: red;
+}
+
+.icontext {
+  background-color: var(--color-neutral-beige);
+  color: var(--color-dark);
+}
+
+.icon {
+  max-height: 100%;
+}
+
+.introtext {
+  background-color: var(--color-light);
+}
