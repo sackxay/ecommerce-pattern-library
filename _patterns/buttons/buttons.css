@@ -67,6 +67,7 @@ color: var(--color-dark);
 }
 
 .cart {
+  backgrond-color: var(--color-primary-light);
  border-color: var(--color-secondary-whatever);
 }
 
