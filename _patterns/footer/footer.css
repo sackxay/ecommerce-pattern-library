@@ -1,0 +1,11 @@
+footer {
+  background-color: var(--color-primary);
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+
+}
