@@ -1,16 +1,22 @@
-.ul1 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: var(--color-primary);
+.navbar {
   overflow: hidden;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
 }
 
-.li1 {
-  float:right;
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.navstate:hover, .navstate:active {
+  background: #28a745;
 }
 
 .li1 a {
@@ -19,4 +25,15 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
+  }
+
+  .ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#3291c9;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
