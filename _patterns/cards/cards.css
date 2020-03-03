@@ -131,3 +131,30 @@ url('/images/kendama11.jpg');
     opacity: 1;
   }
 }
+
+.thumb-layout {
+  display: grid;
+  grid-template-rows: 20vw 20vw;
+  grid-template-columns: 20vw 1fr 1fr 1fr;
+  grid-template-areas:
+    "thumb-1 primary-img content content"
+    "thumb-2 primary-img content content";
+  gap: 1em 1em;
+}
+
+.thumb-1 {
+  grid-area: thumb-1;
+}
+
+.thumb-2 {
+  grid-area: thumb-2;
+}
+
+.primary-img {
+  grid-area: primary-img;
+}
+
+.content {
+  grid-area: content;
+  align-self: center;
+}

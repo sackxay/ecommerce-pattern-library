@@ -67,8 +67,8 @@ color: var(--color-dark);
 }
 
 .cart {
-  backgrond-color: var(--color-primary-light);
- border-color: var(--color-secondary-whatever);
+  background-color: var(--color-primary);
+  border-color: var(--color-light);
 }
 
 .hvr-pulse {
@@ -126,4 +126,24 @@ color: var(--color-dark);
 .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
+}
+
+#a {
+  border: 4px solid #ff00ef;
+  color: #ff00ef;
+  border-radius: 30px;
+  text-align: right;
+  width: 152px;
+  padding: 16px 20px 16px 0px;
+}
+
+#a::before {
+  content: "";
+  width: calc(36px);
+  height: calc(36px);
+  position: absolute;
+  background-color: #58014f;
+  left: 8px;
+  top: 8px;
+  border-radius: 20px;
 }

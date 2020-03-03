@@ -14,9 +14,9 @@ patterns:
       The basic card with a green border. Use against a dark background.
 
   carosel:
-    title: "Carosel"
+    title: "Carosel Javascript"
     description: |
-      The carosel button should be used to scroll through images while remaining on the same page.
+      The carosel button should be used to scroll through images while remaining on the same page. Should be hidden on small sizes and only appear on medium and above.
 
   prodinfo:
     title: "Product Info"
