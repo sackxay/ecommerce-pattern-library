@@ -9,16 +9,16 @@ footer a {
   color: #fff;
 }
 
-.navbar a:hover {
+footer a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.navbar a.active {
+footer a.active {
   background-color: var(--color-secondary-whatever);
   color: white;
 }
 
-.navstate:hover, .navstate:active {
+footer a:hover, .navstate:active {
   background: var(--color-link);
 }

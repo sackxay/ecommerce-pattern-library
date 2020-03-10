@@ -22,3 +22,14 @@ patterns:
     title: "Product Info"
     description: |
       The product info card should be used to show the option to view different perspectives of the items. This should also be used as a child of the product card.
+
+  product-card:
+    width: 400
+    description: |
+      The product card is used on the product listing page to display each availavble product.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product

@@ -3,6 +3,10 @@ layout: default
 highlight_nav: products
 ---
 
-{% pattern banners/featured heading="Wonderful, exotic, luminous" text="Geological marvels: gems, crystals, diamonds, geodes and much more!" pic5="kendama9.jpg" %}
-
 <h1>Products!</h1>
+
+<div class="unit">
+{% for product in site.products %}
+  {% pattern cards/product-card data=product %}
+{% endfor %}
+</div>
