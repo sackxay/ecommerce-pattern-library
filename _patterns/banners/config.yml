@@ -4,9 +4,27 @@ description: |
 
 patterns:
   featured:
+    fields:
+      - name: heading
+        type: string
+        example: "Brilliant, stunning, bright"
+      - name: text
+        type: string
+        example: "Geological marvels: gems, crystals, diamonds, geodes and much more!"
+      - name: pic5
+        type: string
+        example: "images/pic16.jpg"
+      - name: button_text
+        type: string
+        example: "see collection"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
     title: "Featured"
     description: |
-      Should be used to display products that are new or need to be sold from over stocking.
+      Should be used on the index page.
 
   newsletter:
     title: "Newsletter"

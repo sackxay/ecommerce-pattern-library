@@ -1,0 +1,14 @@
+title: "Navigation"
+description: |
+  Navigation should be used to move around the website. It usually connects the user to a seperate page than the current page it is clicked on.
+
+patterns:
+  breadcrumbs:
+    title: "Bread Crumbs"
+    description: |
+      This is a horizontal list of the path you took to get to your current page. It will always lead back home.
+
+  pagination:
+    title: "Pagination"
+    description: |
+      This option allows you to navigate to specific pages that are listed already. You can usually move forward or backward depending on where you are.

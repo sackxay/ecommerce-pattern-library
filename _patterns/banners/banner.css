@@ -6,7 +6,8 @@
 }
 
 .newsletter {
-
+  color: var(--color-light);
+  background-color: rgba(0,0,0,0.6);
 }
 
 .featured {
@@ -15,4 +16,24 @@
 .featured-text {
   float: bottom;
 
+}
+
+.container {
+  position: relative;
+  text-align: none;
+  color: #fff;
+}
+
+.top-left {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.overlay {
+  color: rgba(255, 0, 0, 0.5);
 }

@@ -1,8 +1,10 @@
-<div class="featured">
-  <img class="xs-1 banner" src="/images/kendama5.jpg" alt="">
-    <div class="xs-1 relative island featured-text">
-      <h1 class="nina">New Swag</h1>
-      <p>Get ahead of the game with our fresh gear!</p>
-      {% pattern buttons/light %}
+<div class="container featured">
+  <img class="xs-1" src="/images/{{include.pic5}}" alt="">
+    <div class="newsletter top-left xs-1 island">
+      <h1 class="nina white">{{include.heading}}</h1>
+      <p class="white">{{include.text}}</p>
+      {% if include.button_url %}
+        {% pattern buttons/light url=include.button_url text=include.button_text %}
+      {% endif %}
     </div>
   </div>

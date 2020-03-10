@@ -3,7 +3,7 @@ description: |
   Forms should be used when you gather information about the user. It is is important information that is applicable to the sale of the product.
 
 patterns:
-  kendama:
+  boolean:
     title: "Boolean"
     description: |
       The boolean form should be used for closed ended questions with only 2 options. Yes? True? Accept?.
@@ -13,7 +13,7 @@ patterns:
     description: |
       This form field lets you choose different options via a drop down menu.
 
-  shopping cart:
+  shoppingcart:
     title: "Shopping Cart"
     description: |
       The Shopping Cart form is the form you see upon stage 1 of the checkout proccess.

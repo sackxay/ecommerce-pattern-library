@@ -20,3 +20,10 @@ patternbot:
       The primary colour represents the earth. It should be, along with #000000, used for all body copy and text against the white html background.
     colors.secondary: |
       The primary colours represent nature, trees and plants. They should be used for text in foregrounds.
+  layouts:
+    default: |
+      This is the default layout. It is very basic and should be used with almost every page. It includes a header, foooter and content placed in between.
+
+collections:
+  products:
+    output: true

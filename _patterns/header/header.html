@@ -1,11 +1,11 @@
-<nav>
+<nav role="navigation" id="nav">
   <div id="navbar">
 <ul class="ul1 list-group">
-  <li class="li1 navstate"><a class="active" href="#cart">Cart</a></li>
-<li class="li1 navstate"><a href="#about">About</a></li>
-<li class="li1 navstate"><a href="#products">Products</a></li>
-<li class="li1 navstate"><a href="#index">Home</a></li>
-<p class="t1 gutter pad-t-1-2 push-0"><a href="index.html">Syzygy Kendamas</a></p>
+  <li class="li1 navstate {% if page.highlight_nav == 'cart' %}current{% endif %}"><a href="/cart/">Cart</a></li>
+  <li class="li1 navstate {% if page.highlight_nav == 'about' %}current{% endif %}"><a href="/about/">About</a></li>
+  <li class="li1 navstate {% if page.highlight_nav == 'products' %}current{% endif %}"><a href="/products/">Products</a></li>
+  <li class="li1 navstate {% if page.highlight_nav == 'home' %}current{% endif %}"><a href="/index/">Home</a></li>
+  <a href="/index/"><img class="img-flex unit logo t1 gutter pad-t-1-4 push-0" src="/images/logo-16.svg"></a>
 </ul>
 </div>
 </nav>

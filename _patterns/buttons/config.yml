@@ -25,9 +25,16 @@ patterns:
     background: "--color-dark"
 
   light:
+    fields:
+      - name: text
+        type: string
+        example: "See Collection"
+      - name: url
+        type: url
+        example: "/products/"
     title: "Light"
     description: |
-      The light button should be used as a variation of the ghost button.
+      The light button should be used as a variation of the ghost button and will take you to the products page.
     background: "--color-secondary-whatever"
 
   cart:
